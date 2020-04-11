@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>putah-cloud</Name>
+  <Repository>javiervarela/putah-cloud:latest</Repository>
+  <Registry>https://hub.docker.com/r/javiervarela/putah-cloud/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://github.com/javiervarela/putah-cloud</Support>
+  <Project>https://github.com/javiervarela/putah-cloud</Project>
+  <Overview>Putah cloud minimal docker for custom putah network resources.</Overview>
+  <Category>Productivity: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/javiervarela/docker-templates/master/templates/putah-cloud.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/javiervarela/docker-templates/master/templates/icons/putah-cloud.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Putah cloud minimal docker for custom putah network resources.</Description>
+  <Labels/>
+  <Config Name="Port" Target="80" Default="14900" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">14900</Config>
+</Container>
