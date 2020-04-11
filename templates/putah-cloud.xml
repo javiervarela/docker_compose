@@ -9,7 +9,7 @@
   <Support>https://github.com/javiervarela/putah-cloud</Support>
   <Project>https://github.com/javiervarela/putah-cloud</Project>
   <Overview>Putah cloud minimal docker for custom putah network resources.</Overview>
-  <Category>Productivity: Tools: Status:Stable</Category>
+  <Category>Backup: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/javiervarela/docker-templates/master/templates/putah-cloud.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/javiervarela/docker-templates/master/templates/icons/putah-cloud.png</Icon>
