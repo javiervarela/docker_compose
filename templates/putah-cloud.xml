@@ -19,5 +19,32 @@
   <DonateLink/>
   <Description>Putah cloud minimal docker for custom putah network resources.</Description>
   <Labels/>
-  <Config Name="Port" Target="80" Default="14900" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">14900</Config>
+    <Data>
+    <Volume>
+      <HostDir>/mnt/disks/torrents/docker/config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/disks/torrents/docker/cache</HostDir>
+      <ContainerDir>/cache</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/disks/torrents/test</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw,shared</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/disks/torrents/__SUBIENDO</HostDir>
+      <ContainerDir>/local</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/disks/torrents/docker/cloud</HostDir>
+      <ContainerDir>/cloud</ContainerDir>
+      <Mode>rw,shared</Mode>
+    </Volume>
+  </Data>
+  <!--<Config Name="Port" Target="80" Default="14900" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">14900</Config>-->
 </Container>
